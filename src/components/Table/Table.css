@@ -1,0 +1,53 @@
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+  
+  #fiscalias {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  #fiscalias td, #fiscalias th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #fiscalias tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #fiscalias tr:hover {background-color: #ddd;}
+  
+  #fiscalias th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+#name {
+  width: 223.67px;
+  height: 40.25px;
+}
+
+.form-group {
+  display: inline-block;
+  background: transparent;
+  width: calc(50% - 1px);
+  padding: 0 !important;
+}
+
+.container {
+  display: inline-block;
+  width: 100%;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}
+
+.form-control {
+  margin: 0 !important;
+}
